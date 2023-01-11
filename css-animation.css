@@ -1,51 +1,51 @@
-body h1{
-    margin-left: 330px;
-}
-@keyframes slidein {
-0% {
-  background-color: #00308f;
-  left: 0px;
-  top: 0px;
-}
-25% {
-  background-color: brown;
-  top: 425px;
-  left:175px;
-  transform: scale(0.5);
-}
-50% {
-  background-color: aqua;
-  left: 350px;
-  top: 0px;
-  transform: scale(1);
-}
-75% {
-  background-color: darkseagreen;
-  left: 525px;
-  top: 425px;
-  transform: scale(0.5);
-}
-100% {
-  background-color: #00ff40;
-  left: 700px;
-  top: 0;
-  transform: scale(1);
-}
-}
-.stage {
-width: 800px;
-height: 500px;
-background-color: #8da399;
-}
-.ball {
-width: 100px;
-height: 100px;
-border-radius: 50%;
-background-color: goldenrod;
-position: relative;
-animation: slidein 2s ease-in-out 0.5s infinite alternate;
-animation-play-state: running;
-}
-.ball h4{
-text-align: center;
-}
+    body h1{
+            margin-left: 330px;
+        }
+      @keyframes slidein {
+        0% {
+          background-color: #00308f;
+          left: 0px;
+          top: 0px;
+        }
+        25% {
+          background-color: brown;
+          top: 425px;
+          left:175px;
+          transform: scale(0.5);
+        }
+        50% {
+          background-color: aqua;
+          left: 350px;
+          top: 0px;
+          transform: scale(1);
+        }
+        75% {
+          background-color: darkseagreen;
+          left: 525px;
+          top: 425px;
+          transform: scale(0.5);
+        }
+        100% {
+          background-color: #00ff40;
+          left: 700px;
+          top: 0;
+          transform: scale(1);
+        }
+      }
+      .stage {
+        width: 800px;
+        height: 500px;
+        background-color: #8da399;
+      }
+      .ball {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: goldenrod;
+        position: relative;
+        animation: slidein 2s ease-in-out 0.5s infinite alternate;
+        animation-play-state: running;
+      }
+      .ball h4{
+        text-align: center;
+      }
